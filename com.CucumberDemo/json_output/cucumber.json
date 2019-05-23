@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8719899733,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login_StepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Testing the right credentials for user",
+        "description": "",
+        "id": "test-login-page;testing-the-right-credentials-for-user",
+        "after": [
+          {
+            "result": {
+              "duration": 991115947,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login_StepDefinition.CloseUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12726187,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be on the login page",
+            "match": {
+              "location": "login_StepDefinition.user_should_be_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 320266666,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should write on the email filed the email and password",
+            "match": {
+              "location": "login_StepDefinition.user_should_write_on_the_email_filed_the_email_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1061127253,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should click the user button",
+            "match": {
+              "location": "login_StepDefinition.user_should_click_the_user_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7839573,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should login successfully",
+            "match": {
+              "location": "login_StepDefinition.user_should_login_successfully()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test login page",
+    "description": "",
+    "id": "test-login-page",
+    "keyword": "Feature",
+    "uri": "C:/Users/Farhan/git/repository26/com.CucumberDemo/src/test/resources/Feature/login.feature",
+    "tags": []
+  }
+]
